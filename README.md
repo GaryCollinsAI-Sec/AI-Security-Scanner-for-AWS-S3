@@ -1,4 +1,4 @@
-# CloudGuard-AI Autonomous Remediation for AWS
+# CloudGuard-AI: Autonomous Remediation for AWS
 
 
 
