@@ -35,11 +35,6 @@ The project aimed to bridge the gap between manual security reviews and continuo
 - PowerShell: The local terminal environment used for script execution, file management, and environment variable configuration.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
 
 *Ref 1: AI Security Scanner
 
@@ -49,6 +44,8 @@ Initial staging of the Amazon S3 environment within the AWS Management Console. 
 
 
 *Ref 2: AI Security Scanner
+
+
 <img width="496" height="123" alt="Screenshot 2026-01-28 151433" src="https://github.com/user-attachments/assets/7aeb365e-41a3-4dde-bf26-2db394991540" />
 
 
@@ -56,6 +53,9 @@ This screenshot captures the automated staging phase of the project’s security
 
 
 *Ref 3: AI Security Scanner
+
+
+
 <img width="539" height="215" alt="Screenshot 2026-01-28 151516" src="https://github.com/user-attachments/assets/a1ecf850-6f6e-4ac9-b98b-e8d12ec3589d" />
 
 This technical sequence demonstrates the execution and validation of the AI Security Scanner using automated test-case orchestration. Operating within an isolated Python virtual environment (venv), a test_scanner.py script was first utilized to programmatically stage a "controlled vulnerability" by creating the js-security-scan-test-2026-v1 bucket and intentionally removing its Public Access Block. Following this setup, the primary scanner.py engine was executed, leveraging the Boto3 SDK to crawl the live environment and successfully detect the misconfigured bucket. This workflow confirms the scanner's ability to identify "naked" S3 resources in real-time, proving its effectiveness for automated security auditing and risk remediation.
